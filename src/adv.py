@@ -1,4 +1,6 @@
 from room import Room
+from player import Player
+from item import Item
 
 # Declare all the rooms
 
@@ -38,6 +40,10 @@ room['treasure'].s_to = room['narrow']
 #
 
 # Make a new player object that is currently in the 'outside' room.
+print('Prepare to defend yourself player in Links Dream 🔥')
+name = 'Link'
+inventory = []
+player = Player(name, room['outside'], inventory)
 
 # Write a loop that:
 #
