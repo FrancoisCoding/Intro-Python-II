@@ -39,12 +39,12 @@ room['treasure'].s_to = room['narrow']
 # Dictionary of all items that can be added to rooms
 
 items = {
-    "candle": Item("The Blue Candle", "Sets the ground in front of you on fire. The fire can be used to burn away bushes or even light up dark areas."),
-    "ring": Item("The Blue Ring", "This ring mitigates damage taken by half and changes the color of Links tights."),
-    "bomb": Item("Bomb", "Used primarily to blow up weakened walls and also a winning component to beating certain enemies."),
-    "boomerang": Item("Boomerang", "A long-ranged weapon that can kill weaker enemies and stun some larger ones, such as Like-likes."),
-    "clock": Item("Clock", "Enemies sometimes drop this power-up. When picked up, it holds all enemies still, thus allowing you to kill things at your own pace."),
-    "compass": Item("Compass", "Obtaining the compass allows you to see where the piece of the triforce is in the current dungeon.")
+    "candle": Item("candle", "Sets the ground in front of you on fire. The fire can be used to burn away bushes or even light up dark areas."),
+    "ring": Item("ring", "This ring mitigates damage taken by half and changes the color of Links tights."),
+    "bomb": Item("bomb", "Used primarily to blow up weakened walls and also a winning component to beating certain enemies."),
+    "boomerang": Item("boomerang", "A long-ranged weapon that can kill weaker enemies and stun some larger ones, such as Like-likes."),
+    "clock": Item("clock", "Enemies sometimes drop this power-up. When picked up, it holds all enemies still, thus allowing you to kill things at your own pace."),
+    "compass": Item("compass", "Obtaining the compass allows you to see where the piece of the triforce is in the current dungeon.")
 }
 
 # Added items to each room
